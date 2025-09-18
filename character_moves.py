@@ -63,6 +63,10 @@ def draw(x: float, y: float):
 
 
 def move_triangle2():
+    print("Move triangle2")
+    move_bottom()
+    move_triangle_point()
+    move_triangle_point2()
     pass
 
 
