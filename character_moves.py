@@ -80,6 +80,12 @@ def move_triangle_point2():
 
 
 def move_triangle_point3():
+    x=385
+    y=500
+    while(x>=10 and y>=90):
+        draw(x,y)
+        x=x-2
+        y=y-2
     pass
 
 
