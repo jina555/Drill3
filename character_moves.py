@@ -62,11 +62,23 @@ def draw(x: float, y: float):
     delay(0.01)
 
 
+def move_triangle_point1():
+    pass
+
+
+def move_triangle_point2():
+    pass
+
+
+def move_triangle_point3():
+    pass
+
+
 def move_triangle2():
     print("Move triangle2")
-    move_bottom()
-    move_triangle_point()
+    move_triangle_point1()
     move_triangle_point2()
+    move_triangle_point3()
     pass
 
 
