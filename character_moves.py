@@ -98,13 +98,13 @@ def move_triangle2():
 
 
 while True:
-    # move_rectangle()
-    # move_triangle2()
+    move_rectangle()
+    move_triangle2()
     move_circle()
 
 
 
-    break
+
     pass
 
 
