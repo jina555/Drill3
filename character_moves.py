@@ -47,7 +47,7 @@ def move_rectangle():
 
 def move_circle():
     print("Move circle")
-    r=200
+    r=210
     for deg in range(0,360):
         x= r * math.cos(math.radians(deg))+400
         y= r * math.sin(math.radians(deg))+300
@@ -98,8 +98,8 @@ def move_triangle2():
 
 
 while True:
-    move_rectangle()
-    move_triangle2()
+    # move_rectangle()
+    # move_triangle2()
     move_circle()
 
 
