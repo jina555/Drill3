@@ -24,6 +24,8 @@ def move_right():
 
 def move_bottom():
     print('Moving bottom')
+    for x in range(780,10,-5):
+        draw(x,90)
     pass
 
 
