@@ -31,6 +31,8 @@ def move_bottom():
 
 def move_left():
     print('Moving left')
+    for y in range(90,550,5):
+        draw(10,y)
     pass
 
 
