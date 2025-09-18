@@ -63,8 +63,11 @@ def draw(x: float, y: float):
 
 
 while True:
+    # move_rectangle()
+    move_triangle()
     # move_circle()
-    move_rectangle()
+
+
 
     break
     pass
