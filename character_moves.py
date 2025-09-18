@@ -63,15 +63,15 @@ def draw(x: float, y: float):
 
 
 def move_triangle_point1():
-    for x in range(10,780,5):
+    for x in range(100,700,2):
         draw(x,90)
     pass
 
 
 def move_triangle_point2():
-    x=780
+    x=700
     y=90
-    while (x>=385 and y<=500):
+    while (x>=400 and y<=400):
         draw(x,y)
         x=x-2
         y=y+2
@@ -80,9 +80,9 @@ def move_triangle_point2():
 
 
 def move_triangle_point3():
-    x=385
-    y=500
-    while(x>=10 and y>=90):
+    x=400
+    y=400
+    while(x>=100 and y>=90):
         draw(x,y)
         x=x-2
         y=y-2
@@ -98,9 +98,9 @@ def move_triangle2():
 
 
 while True:
-    # move_rectangle()
+    move_rectangle()
     move_triangle2()
-    # move_circle()
+    move_circle()
 
 
 
