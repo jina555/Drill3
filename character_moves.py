@@ -105,7 +105,7 @@ while True:
 
 
 
-    pass
+
 
 
 close_canvas()
