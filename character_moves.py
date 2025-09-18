@@ -63,6 +63,8 @@ def draw(x: float, y: float):
 
 
 def move_triangle_point1():
+    for x in range(10,780,5):
+        draw(x,90)
     pass
 
 
