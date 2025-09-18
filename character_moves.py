@@ -62,9 +62,13 @@ def draw(x: float, y: float):
     delay(0.01)
 
 
+def move_triangle2():
+    pass
+
+
 while True:
     # move_rectangle()
-    move_triangle()
+    move_triangle2()
     # move_circle()
 
 
